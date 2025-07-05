@@ -1,0 +1,7 @@
+# System dependencies for SAQA deployment
+# These packages are required for the AI models and libraries
+
+build-essential
+python3-dev
+libffi-dev
+libssl-dev 
