@@ -9,7 +9,9 @@ from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Set your Hugging Face token
-HUGGINGFACE_TOKEN = "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"
+HUGGINGFACE_TOKEN = os.getenv("HUGGINGFACE_API_TOKEN")  # Load from environment variable for security
+if not HUGGINGFACE_TOKEN:
+    print("\n⚠️  HUGGINGFACE_API_TOKEN environment variable not set. Some tests may fail.")
 
 def test_pipeline_approach():
     """Test the pipeline approach - simplest way to use Transformers"""
