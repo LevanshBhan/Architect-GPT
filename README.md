@@ -1,6 +1,5 @@
 # ARCHITECT-GPT - Intelligent Architecture Assistant
 
-**Created by: Levansh Bhan**
 
 ## Overview
 
