@@ -1,0 +1,7 @@
+streamlit==1.46.1
+langchain==0.3.26
+langchain-community==0.3.27
+huggingface-hub==0.33.2
+transformers==4.53.1
+torch==2.7.1
+accelerate==1.8.1 
